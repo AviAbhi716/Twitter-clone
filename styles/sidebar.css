@@ -1,0 +1,105 @@
+.sidebar{
+  width: 200px;
+  border-width: 2px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  position: fixed;
+  background-color: black;
+  height: 100%;
+}
+.Xbox{
+  display: inline-block;
+  padding: 11px;
+  border-radius: 50px;
+}
+.X{
+  width: 32px;
+  cursor: pointer;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding: 11px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.box:hover{
+  background-color: rgba(62, 65, 68, 0.3);
+}
+.Home_box{
+  position: relative;
+}
+.Home_dot{
+  position: absolute;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  top: 0;
+  left: 20px;
+}
+.Notifications_box{
+  position: relative;
+}
+.Notification_dot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(29, 155, 240);
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 15px;
+  font-size: 10px;
+}
+.image{
+  width: 30px;
+  object-fit:contain;
+  margin-right: 15px;
+}
+.post{
+  font-weight: bold;
+  width:220px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.account{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.profile{
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-right: 12px;
+}
+.more{
+  width: 18px;
+  object-fit: contain;
+  margin-left: 40px;
+}
+.nam{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.username{
+  font-size: 14px;
+  color: rgb(113, 118, 123);
+}

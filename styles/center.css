@@ -1,0 +1,160 @@
+.center{
+  border-style: solid;
+  border-left-color: rgb(62, 65, 68);
+  border-right-color: rgb(62, 65, 68);
+  border-width: 1px;
+  display: grid;
+  grid-template-rows:100px 1fr;
+  margin-left: 257px;
+  margin-top: 50px;
+  width: 600px;
+  overflow-y: auto; /* Ensures center section can scroll */
+}
+.section2{
+  border-style: solid;
+  border-color: black;
+  border-bottom-color: rgb(62, 65, 68);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+}
+.profileimg{
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.section2a{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  flex: 1;
+}
+.write{
+  background-color: black;
+  border: none;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: white;
+  margin-bottom: 4px;
+  color: rgb(113, 118, 123);
+  font-size: 20px;
+}
+.write::placeholder{
+  color: rgb(113, 118, 123);
+  font-size: 20px;
+}
+.section2b{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.subtitles{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.sbox{
+  display: flex;
+  flex-direction: row;
+}
+.subbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 30px;
+  transition: background-color 0.15s;
+}
+.subbox:hover{
+  background-color: rgba(29, 155, 240, 0.1)
+}
+.postpic{
+  font-weight: 600;
+  background-color: gray;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+.section3{
+  border-style: solid;
+  border-color: black;
+  border-bottom-color: rgb(62, 65, 68);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  
+}
+.section3:hover{
+  background-color: rgba(62, 65, 68, 0.1);
+}
+.section3a{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-right: 15px;
+  flex: 1;
+}
+.section3b{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.section3c{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3d{
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+}
+.name{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.subtag{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.posthorizontal{
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+.postvertical{
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+.section3e{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section3f{
+  display: flex;
+  flex-direction: row;
+}

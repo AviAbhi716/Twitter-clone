@@ -6,6 +6,9 @@ body{
   padding-top: 0px;
   font-family:Roboto, Arial, Helvetica, sans-serif;
   height: 100%;
+  overflow-x: hidden;  
+  overflow-y: scroll; 
+  overscroll-behavior: none;
 }
 main{
   display: flex;
